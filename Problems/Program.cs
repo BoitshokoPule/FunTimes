@@ -4,7 +4,7 @@ namespace Problems
 {
    public class Program
     {
-         string Prefix(string input)
+        public string Prefix(string input)
         {
             if (input.Equals(null))
             {
@@ -18,7 +18,8 @@ namespace Problems
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Program testing = new Program();
+            Console.WriteLine(testing.Prefix("well"));
         }
     }
 }
